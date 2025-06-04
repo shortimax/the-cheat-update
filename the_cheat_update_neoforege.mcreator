@@ -1,0 +1,514 @@
+{
+  "mod_elements": [
+    {
+      "name": "Biome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/placed_feature/biome_tree.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/biome/biome.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/features/treedecorators/BiomeTrunkDecorator.java",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/configured_feature/biome_tree.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/features/treedecorators/BiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/features/treedecorators/BiomeLeaveDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Blabla",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blabla",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/advancement/blabla.json"
+        ]
+      }
+    },
+    {
+      "name": "Neoforge",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neoforge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/neoforge/biome_modifier/neoforge_biome_modifier.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/block/NeoforgeBlock.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/blockstates/neoforge.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/block/neoforge.json",
+          "src/main/resources/data/the_cheat_update_neoforege/loot_table/blocks/neoforge.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/configured_feature/neoforge.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/neoforge.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/placed_feature/neoforge.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatupdate",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatupdate",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Netheritegenerator",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritegenerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/client/gui/NetheritegeneratorScreen.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/inventory/NetheritegeneratorMenu.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/network/NetheritegeneratorButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Dfvnjkd",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dfvnjkd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/procedures/DfvnjkdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lol",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/jukebox_song/lol.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/item/LolItem.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/lol.json"
+        ]
+      }
+    },
+    {
+      "name": "M",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/entity/MEntity.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/client/renderer/MRenderer.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/m_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "BossblockOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossblock_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/procedures/BossblockOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bossblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bossblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/bossblock.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/block/BossblockBlock.java",
+          "src/main/resources/data/the_cheat_update_neoforege/loot_table/blocks/bossblock.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/blockstates/bossblock.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/block/bossblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Loohoh",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loohoh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/structure/loohoh.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/template_pool/loohoh.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/structure_set/loohoh.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatdimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatdimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/teleporter/CheatdimensionTeleporter.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/blockstates/cheatdimension_portal.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/block/cheatdimension_portal_ew.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/teleporter/CheatdimensionPortalShape.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/item/CheatdimensionItem.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/dimension/CheatdimensionDimension.java",
+          "src/main/resources/data/the_cheat_update_neoforege/dimension/cheatdimension.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/block/CheatdimensionPortalBlock.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/block/cheatdimension_portal_ns.json",
+          "src/main/resources/data/the_cheat_update_neoforege/dimension_type/cheatdimension.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/cheatdimension.json"
+        ]
+      }
+    },
+    {
+      "name": "Ghj",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghj",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/recipe/portal_igniter.json"
+        ]
+      }
+    },
+    {
+      "name": "ItempngQuandUneEntiteVivanteEstFrappeeAvecLitem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itempng_quand_une_entite_vivante_est_frappee_avec_litem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/procedures/ItempngQuandUneEntiteVivanteEstFrappeeAvecLitemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Itempng",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itempng",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/item/ItempngItem.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/itempng.json"
+        ]
+      }
+    },
+    {
+      "name": "ItempngLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itempng_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/procedures/ItempngLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ItempngQuandLitemEstLacheParLeJoueur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itempng_quand_litem_est_lache_par_le_joueur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/procedures/ItempngQuandLitemEstLacheParLeJoueurProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/procedures/SpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Therealguiforcheater",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "therealguiforcheater",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdateneoforege/network/TherealguiforcheaterButtonMessage.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/world/inventory/TherealguiforcheaterMenu.java",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/client/gui/TherealguiforcheaterScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Therealblockforcheater",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "therealblockforcheater",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_cheat_update_neoforege/models/block/therealblockforcheater.json",
+          "src/main/resources/assets/the_cheat_update_neoforege/models/item/therealblockforcheater.json",
+          "src/main/java/net/mcreator/thecheatupdateneoforege/block/TherealblockforcheaterBlock.java",
+          "src/main/resources/assets/the_cheat_update_neoforege/blockstates/therealblockforcheater.json",
+          "src/main/resources/data/the_cheat_update_neoforege/loot_table/blocks/therealblockforcheater.json"
+        ]
+      }
+    },
+    {
+      "name": "Therealstructureforcheater",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "therealstructureforcheater",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/template_pool/therealstructureforcheater.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/structure_set/therealstructureforcheater.json",
+          "src/main/resources/data/the_cheat_update_neoforege/worldgen/structure/therealstructureforcheater.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "christmas-nature",
+      "files": [
+        "christmas-nature"
+      ],
+      "category": "music",
+      "subtitle": "by shortimax"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Biome"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Neoforge"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Biome"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Lol"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.POWDER_SNOW",
+      "~CUSTOM:Neoforge",
+      "~Blocks.IRON_ORE"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_cold": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Biome"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:Biome"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.blabla.descr": "tittle",
+      "item.the_cheat_update_neoforege.lol.desc": "by shortimax",
+      "item.the_cheat_update_neoforege.lol": "christmas-nature",
+      "item.the_cheat_update_neoforege.m_spawn_egg": "cheat boss Spawn Egg",
+      "block.the_cheat_update_neoforege.bossblock": "Bossblock",
+      "subtitles.christmas-nature": "by shortimax",
+      "item.the_cheat_update_neoforege.cheatdimension": "cheat portal igniter",
+      "item.the_cheat_update_neoforege.itempng": "Item.png",
+      "block.the_cheat_update_neoforege.therealblockforcheater": "The real block for cheater",
+      "biome.the_cheat_update_neoforege.biome": "the cheat biome",
+      "gui.the_cheat_update_neoforege.netheritegenerator.button_generate": "generate",
+      "gui.the_cheat_update_neoforege.therealguiforcheater.button_click_for_cheat": "click for cheat",
+      "advancements.blabla.title": "you enter in the cheat biome",
+      "item_group.the_cheat_update_neoforege.cheatupdate": "Cheat update",
+      "entity.the_cheat_update_neoforege.m": "cheat boss",
+      "block.the_cheat_update_neoforege.neoforge": "the Neoforge block",
+      "gui.the_cheat_update_neoforege.gui.label_diamond_transformation": "diamond transformation"
+    },
+    "fr_fr": {
+      "advancements.blabla.descr": "titre",
+      "item.the_cheat_update_neoforege.lol.desc": "par shortimax",
+      "item.the_cheat_update_neoforege.lol": "christmas-nature",
+      "item.the_cheat_update_neoforege.m_spawn_egg": "oeuf d\u0027apparition de boss de triche",
+      "block.the_cheat_update_neoforege.bossblock": "bloc de boss",
+      "subtitles.christmas-nature": "par shortimax",
+      "item.the_cheat_update_neoforege.cheatdimension": "allumeur de la dimension de la triche",
+      "item.the_cheat_update_neoforege.itempng": "Item.png",
+      "block.the_cheat_update_neoforege.therealblockforcheater": "le vrai bloc pour un tricheur",
+      "biome.the_cheat_update_neoforege.biome": "le biome de triche",
+      "gui.the_cheat_update_neoforege.netheritegenerator.button_generate": "genérer",
+      "gui.the_cheat_update_neoforege.therealguiforcheater.button_click_for_cheat": "clic pour tricher",
+      "advancements.blabla.title": "tu es entrée dans le biome de triche",
+      "item_group.the_cheat_update_neoforege.cheatupdate": "mise à jour de triche",
+      "entity.the_cheat_update_neoforege.m": "boss de triche",
+      "block.the_cheat_update_neoforege.neoforge": "le bloc neoforge",
+      "gui.the_cheat_update_neoforege.gui.label_diamond_transformation": "transformation de diamond"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_cheat_update_neoforege",
+    "modName": "the cheat update neoforege edition",
+    "version": "1.0.0",
+    "author": "loulo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.thecheatupdateneoforege"
+  },
+  "mcreatorVersion": 202500110519
+}

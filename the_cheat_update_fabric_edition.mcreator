@@ -1,0 +1,117 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cheatbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_cheat_update_fabric_edition/worldgen/placed_feature/cheatbiome_tree.json",
+          "src/main/resources/data/the_cheat_update_fabric_edition/worldgen/biome/cheatbiome.json",
+          "src/main/resources/data/the_cheat_update_fabric_edition/worldgen/configured_feature/cheatbiome_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Gnjcfd",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gnjcfd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdatefabricedition/block/GnjcfdBlock.java",
+          "src/main/resources/assets/the_cheat_update_fabric_edition/blockstates/gnjcfd.json",
+          "src/main/resources/assets/the_cheat_update_fabric_edition/models/item/gnjcfd.json",
+          "src/main/resources/assets/the_cheat_update_fabric_edition/models/block/gnjcfd.json"
+        ]
+      }
+    },
+    {
+      "name": "Brgds",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brgds",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FToucheEnfoncee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_touche_enfoncee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdatefabricedition/procedures/FToucheEnfonceeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "F",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thecheatupdatefabricedition/network/FMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "biome.the_cheat_update_fabric_edition.cheatbiome": "Cheat biome",
+      "key.the_cheat_update_fabric_edition.f": "F",
+      "block.the_cheat_update_fabric_edition.gnjcfd": "teaser trailer for the cheat update 2",
+      "item_group.the_cheat_update_fabric_edition.brgds": "the cheat update (fabric edition)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_cheat_update_fabric_edition",
+    "modName": "the cheat update fabric edition",
+    "version": "1.0.0",
+    "author": "loulo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.thecheatupdatefabricedition"
+  },
+  "mcreatorVersion": 202400452410
+}

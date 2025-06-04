@@ -1,0 +1,624 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cheattool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheattool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cheat_mode/models/item/cheattool.json",
+          "src/main/java/net/mcreator/cheatmode/item/CheattoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cheat",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/recipes/cheat.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/advancements/cheatadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatpainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatpainting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cheatpainting2",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatpainting_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cheatblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/loot_tables/blocks/cheatblock.json",
+          "src/main/resources/assets/cheat_mode/models/item/cheatblock.json",
+          "src/main/resources/assets/cheat_mode/blockstates/cheatblock.json",
+          "src/main/java/net/mcreator/cheatmode/block/CheatblockBlock.java",
+          "src/main/resources/assets/cheat_mode/models/block/cheatblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatfluid",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatfluid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/fluid/types/CheatfluidFluidType.java",
+          "src/main/java/net/mcreator/cheatmode/fluid/CheatfluidFluid.java",
+          "src/main/resources/assets/cheat_mode/models/block/cheatfluid.json",
+          "src/main/java/net/mcreator/cheatmode/block/CheatfluidBlock.java",
+          "src/main/java/net/mcreator/cheatmode/item/CheatfluidItem.java",
+          "src/main/resources/assets/cheat_mode/models/item/cheatfluid_bucket.json",
+          "src/main/resources/assets/cheat_mode/blockstates/cheatfluid.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatfruit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatfruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cheat_mode/models/item/cheatfruit.json",
+          "src/main/java/net/mcreator/cheatmode/item/CheatfruitItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cheatbiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatbiome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/worldgen/biome/cheatbiome.json",
+          "src/main/resources/data/cheat_mode/worldgen/placed_feature/cheatbiome_tree.json",
+          "src/main/java/net/mcreator/cheatmode/world/features/treedecorators/CheatbiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/cheatmode/world/features/treedecorators/CheatbiomeLeaveDecorator.java",
+          "src/main/resources/data/cheat_mode/worldgen/configured_feature/cheatbiome_tree.json",
+          "src/main/java/net/mcreator/cheatmode/world/features/treedecorators/CheatbiomeTrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "Cheatvilager",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatvilager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cheat_mode/textures/entity/villager/profession/cheatvilager.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "Cheattrade",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheattrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cheatdimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatdimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/world/dimension/CheatdimensionDimension.java",
+          "src/main/resources/data/cheat_mode/dimension_type/cheatdimension.json",
+          "src/main/resources/assets/cheat_mode/models/block/cheatdimension_portal_ns.json",
+          "src/main/java/net/mcreator/cheatmode/block/CheatdimensionPortalBlock.java",
+          "src/main/resources/assets/cheat_mode/models/block/cheatdimension_portal_ew.json",
+          "src/main/java/net/mcreator/cheatmode/item/CheatdimensionItem.java",
+          "src/main/resources/assets/cheat_mode/models/item/cheatdimension.json",
+          "src/main/java/net/mcreator/cheatmode/world/teleporter/CheatdimensionTeleporter.java",
+          "src/main/resources/assets/cheat_mode/blockstates/cheatdimension_portal.json",
+          "src/main/resources/data/cheat_mode/dimension/cheatdimension.json",
+          "src/main/java/net/mcreator/cheatmode/world/teleporter/CheatdimensionPortalShape.java"
+        ]
+      }
+    },
+    {
+      "name": "Cheattrucrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheattrucrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/recipes/cheat_truc_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatadvancement2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatadvancement_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/advancements/cheatadvancement_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Cheatenchantment",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatenchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/enchantment/CheatenchantmentEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Cheatupdate",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatupdate",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CheatplantLorsDunClicDroitSurLaPlante",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatplant_lors_dun_clic_droit_sur_la_plante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/procedures/CheatplantLorsDunClicDroitSurLaPlanteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Huh",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "huh",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/advancements/huh.json"
+        ]
+      }
+    },
+    {
+      "name": "CheatplantQuandLaPlanteEstDetruiteParUnJoueur",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatplant_quand_la_plante_est_detruite_par_un_joueur",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/procedures/CheatplantQuandLaPlanteEstDetruiteParUnJoueurProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheatplant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatplant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cheat_mode/blockstates/cheatplant.json",
+          "src/main/resources/data/cheat_mode/worldgen/placed_feature/cheatplant.json",
+          "src/main/java/net/mcreator/cheatmode/block/CheatplantBlock.java",
+          "src/main/resources/data/cheat_mode/worldgen/configured_feature/cheatplant.json",
+          "src/main/resources/assets/cheat_mode/models/block/cheatplant.json",
+          "src/main/resources/assets/cheat_mode/models/item/cheatplant.json",
+          "src/main/resources/data/cheat_mode/forge/biome_modifier/cheatplant_biome_modifier.json",
+          "src/main/resources/data/cheat_mode/loot_tables/blocks/cheatplant.json"
+        ]
+      }
+    },
+    {
+      "name": "Lol",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/world/inventory/LolMenu.java",
+          "src/main/java/net/mcreator/cheatmode/client/gui/LolScreen.java",
+          "src/main/java/net/mcreator/cheatmode/network/LolButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "AToucheRelachee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_touche_relachee",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/procedures/AToucheRelacheeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "A",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/network/AMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Lllllooooolllll",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lllllooooolllll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/procedures/LllllooooolllllProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kkkkkkkkkkkkkkkkkkkkkkkkk",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kkkkkkkkkkkkkkkkkkkkkkkkk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/procedures/KkkkkkkkkkkkkkkkkkkkkkkkkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheatcommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatcommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cheatmode/command/CheatcommandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Yeah",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeah",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/advancements/yeah.json"
+        ]
+      }
+    },
+    {
+      "name": "Lllllllllllll",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lllllllllllll",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/loot_tables/entities/cheatblock.json"
+        ]
+      }
+    },
+    {
+      "name": "GOD",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "god",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cheat_mode/models/item/god.json",
+          "src/main/java/net/mcreator/cheatmode/item/GODItem.java"
+        ]
+      }
+    },
+    {
+      "name": "D",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/cheat_mode/recipes/d.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Cheatblock",
+      "~Blocks.IRON_ORE",
+      "~Blocks.STRIPPED_BAMBOO_BLOCK"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Cheatblock"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Cheatfluid"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Cheattool"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Cheatblock"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Cheattool"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Cheattool"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_nether": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Cheatfruit"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Cheatbiome"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Cheatbiome"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.cheatadvancement_2.title": "Cheat advancement",
+      "painting.cheat_mode.cheatpainting.title": "Cheat painting",
+      "item.cheat_mode.cheatfruit.desc": "food music",
+      "item.cheat_mode.cheatfruit": "Cheat fruit",
+      "item.cheat_mode.cheatdimension": "Chea tdimension Portal Igniter",
+      "advancements.cheatadvancement_2.descr": "you enter in the cheat dimension",
+      "enchantment.cheat_mode.cheatenchantment": "Cheat enchantment",
+      "block.cheat_mode.cheatplant": "Cheat plant",
+      "item.cheat_mode.cheatfluid_bucket": "Cheat fluid Bucket",
+      "painting.cheat_mode.cheatpainting_2.title": "Cheat painting ultra",
+      "key.cheat_mode.a": "cheat",
+      "fluid.cheat_mode.cheatfluid": "Cheat fluid",
+      "advancements.huh.descr": "why",
+      "item.cheat_mode.god": "GOD",
+      "advancements.cheatadvancement.title": "Cheat_advancement",
+      "painting.cheat_mode.cheatpainting.author": "shortimax",
+      "advancements.cheatadvancement.descr": "you have the cheat tool",
+      "entity.minecraft.villager.cheat_mode.cheatvilager": "Cheat vilager",
+      "item.cheat_mode.cheattool": "Cheat tool",
+      "block.cheat_mode.cheatblock": "Cheat block",
+      "advancements.huh.title": "Huh... what ???",
+      "painting.cheat_mode.cheatpainting_2.author": "shortimax",
+      "block.cheat_mode.cheatfluid": "Cheat fluid",
+      "gui.cheat_mode.lol.button_its_nothing": "it\u0027s nothing ;)",
+      "advancements.yeah.title": "Yeah",
+      "biome.cheat_mode.cheatbiome": "Cheat_biome",
+      "advancements.yeah.descr": "you got the cheat block",
+      "item_group.cheat_mode.cheatupdate": "Cheat update"
+    },
+    "fr_fr": {
+      "advancements.cheatadvancement_2.title": "avancement de triche",
+      "painting.cheat_mode.cheatpainting.title": "painture de triche",
+      "item.cheat_mode.cheatfruit.desc": "nourriture musicale",
+      "item.cheat_mode.cheatfruit": "fruit de triche",
+      "item.cheat_mode.cheatdimension": "allumeur de la dimension de triche",
+      "advancements.cheatadvancement_2.descr": "tu entres dans la dimension de la triche",
+      "enchantment.cheat_mode.cheatenchantment": "Cheat enchantment",
+      "block.cheat_mode.cheatplant": "Cheatplant",
+      "item.cheat_mode.cheatfluid_bucket": "seau de fluide de triche",
+      "painting.cheat_mode.cheatpainting_2.title": "painture de triche ultra",
+      "key.cheat_mode.a": "triche",
+      "fluid.cheat_mode.cheatfluid": "fluide de triche",
+      "advancements.huh.descr": "pourquoi",
+      "item.cheat_mode.god": "GOD",
+      "advancements.cheatadvancement.title": "avancement_de_triche",
+      "painting.cheat_mode.cheatpainting.author": "shortimax",
+      "advancements.cheatadvancement.descr": "tu as l\u0027outil de triche",
+      "entity.minecraft.villager.cheat_mode.cheatvilager": "vilageois de triche",
+      "item.cheat_mode.cheattool": "outil de triche",
+      "block.cheat_mode.cheatblock": "block de triche",
+      "advancements.huh.title": "euh...quoi ???",
+      "painting.cheat_mode.cheatpainting_2.author": "shortimax",
+      "block.cheat_mode.cheatfluid": "fluide de triche",
+      "gui.cheat_mode.lol.button_its_nothing": "c\u0027est rien ;)",
+      "advancements.yeah.title": "Yeah",
+      "biome.cheat_mode.cheatbiome": "biome_de_triche",
+      "advancements.yeah.descr": "tu as le block de triche",
+      "item_group.cheat_mode.cheatupdate": "mise à jour de triche"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cheat_mode",
+    "modName": "cheat mode",
+    "version": "1.0.0",
+    "author": "loulo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.cheatmode"
+  },
+  "mcreatorVersion": 202400452410
+}
